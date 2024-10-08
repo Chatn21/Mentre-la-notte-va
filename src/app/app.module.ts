@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 
 import { CounterModule } from './counter/counter.module';
 import { HeroesModule } from './counter/heroes/heroes.module';
+import { LDBModule } from './ldb/ldb.module';
+import { ListComponent } from './components/list/list.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+
+    ListComponent,
 
 
   ],
@@ -20,6 +24,7 @@ import { HeroesModule } from './counter/heroes/heroes.module';
     AppRoutingModule,
     CounterModule,
     HeroesModule,
+    LDBModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
