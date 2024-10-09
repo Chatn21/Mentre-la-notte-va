@@ -1,0 +1,3 @@
+[submodule "src/app/ldb/services"]
+	path = src/app/ldb/services
+	url = https://github.com/usuario/repo-submodulo.git
